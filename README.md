@@ -164,6 +164,17 @@ docker-compose up apache-flink
 
 ## Publish your knowledge graph
 
+### Get a Digital Object Identifier for your resource
+
+For research publish your resource on a repository to get a DOI (Digital Object Identifier)
+
+- https://zenodo.org/ 
+  - e.g. https://zenodo.org/record/4269952 
+- [https://fairsharing.org](https://fairsharing.org/)
+  - e.g. https://fairsharing.org/FAIRsharing.dpkb5f 
+
+> Even more FINDABLE: [ORCID](https://orcid.org/) is a good way to identify and authenticate yourself across research publishing platforms
+
 ### Resolve your concepts URIs
 
 URLs and domain name can change fast. If you want your knowledge graph identifiers to be resolvable in a few years, it is highly recommended to use a service to redirect a Persistent identifier to the URL resolving the concept.
@@ -181,14 +192,3 @@ We recommend to use the [w3id.org](http://w3id.org/) system, as it allows any Gi
 > [See this example](https://github.com/vemonet/w3id.org/blob/master/d2s/.htaccess ) for a `.htaccess` passing the original w3id URI queries
 
 The persistent identifiers can be easily modified later if necessary, you will just need to send a new pull request with the changes.
-
-### Get a Digital Object Identifier for your resource
-
-For research publish your resource on a repository to get a DOI (Digital Object Identifier)
-
-- https://zenodo.org/ 
-  - e.g. https://zenodo.org/record/4269952 
-- [https://fairsharing.org](https://fairsharing.org/)
-  - e.g. https://fairsharing.org/FAIRsharing.dpkb5f 
-
-> Even more FINDABLE: [ORCID](https://orcid.org/) is a good way to identify and authenticate yourself across research publishing platforms
